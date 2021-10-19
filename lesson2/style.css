@@ -1,0 +1,23 @@
+.pink {
+    color: pink
+}
+body{
+    background: #faf5d6;
+}
+
+h1 { text-align: center;
+
+}
+img {border: 10px solid dimgray}
+
+
+a:hover {
+
+    color: aqua;
+}
+
+a {
+
+    text-decoration: none;
+    color: pink;
+}
