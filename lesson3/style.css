@@ -1,0 +1,35 @@
+.pink {
+    color: #2065e7
+    height: auto;
+    width: 600px;
+    background: #b0f3e3;
+    padding: 20px;
+    border-left: 10px solid #199999;
+    border-radius: 20px;
+    margin: 10px 0px;
+
+}
+body{
+    background: #faf5d6;
+}
+
+h1 { text-align: center;
+
+}
+img {border: 5px solid #666c6a;
+    border-radius: 20px
+
+
+}
+
+
+a:hover {
+
+    color: aqua;
+}
+
+a {
+
+    text-decoration: none;
+    color: #2065e7;
+}
