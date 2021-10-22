@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flexbox</title>
+</head>
+<style>
+
+
+    .wrap {
+        height: 835px;
+        width: 530px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 5px;
+        flex-wrap: wrap;
+
+    }
+
+    #header {
+        background: #cff3b0;
+        height: 150px;
+        width: 500px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    #menu {
+        background: #e89bde;
+        height: 510px;
+        width: 150px;
+        align-self: flex-start;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .post1 {
+        background: #8edbf6;
+        height: 250px;
+        width: 341px;
+        align-self: flex-start;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .post2 {
+        background: #8edbf6;
+        height: 250px;
+        width: 341px;
+        align-self: flex-start;
+        border: 2px solid black;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer {
+        background: #fdfca3;
+        height: 150px;
+        width: 500px;
+        align-self: flex-start;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+</style>
+<body>
+
+<div class="wrap">
+
+    <div id="header"><b>div id="header"</b></div>
+    <div id="menu"><b>div id="header"</b></div>
+    <div class="post">
+        <div class="post1"><b>div class="post"</b></div>
+        <div class="post2"><b>div class="post"</b></div>
+    </div>
+    <div id="footer"><b>div id="footer"</b></div>
+
+</div>
+</body>
+</html>

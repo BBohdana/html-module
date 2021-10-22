@@ -1,0 +1,82 @@
+.wrap {
+
+    height: 500px;
+    width: 500px;
+    background: #faf5d6;
+    flex-wrap: wrap;
+    display: flex;
+    color: #fafafa;
+
+
+
+}
+
+.header {
+
+    height: 100px;
+    width: 500px;
+    background: #0a70b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Apple Symbols"
+
+}
+
+.nav {
+
+    height: 80px;
+    width: 500px;
+    background: #064b7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Apple Symbols"
+
+}
+
+.main {
+
+    height: 240px;
+    width: 100px;
+    background: #11b3d7;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Apple Symbols"
+
+
+}
+.aside {
+
+    height: 240px;
+    width: 100px;
+    background: #6a99f6;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Apple Symbols"
+
+
+
+}
+
+.footer {
+    height: 80px;
+    width: 500px;
+    background: #a8d7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Apple Symbols"
+
+
+
+}
