@@ -1,0 +1,40 @@
+@media screen and (max-width: 400px) {
+
+    .top_left, .search, .text_blocks2, .top_block_7, .top_block_11, .text_blocks3, .long_text1 {
+    display: none;
+}
+    .top_right {
+        display: block;
+    }
+.purple {
+    background: #8edbf6;
+}
+    .sq1, .sq2, .sq3, button {
+
+        background: #8edbf6;
+    }
+
+    .darkblue {
+        background: #ffb9ed;
+    }
+.blocks3 {
+    margin-top: 30px;
+}
+.long_blocks1 {
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.bottom_block3 {
+    margin-top: 10px;
+}
+.main_background {
+    height: auto;
+}
+.bottom_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+}
