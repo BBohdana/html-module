@@ -1,0 +1,51 @@
+@media screen and (max-width: 400px) {
+    .top_bar {
+        display: none;
+
+    }
+    .header_logo img {
+        width: 40px;
+    }
+    .wrapper {
+        padding: 0 10px;
+        margin: 0;
+    }
+    .header_top {
+        padding: 20px;
+
+    }
+    .nav_btn_mobile {
+        display: flex;
+    }
+    .header_title h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .header_title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header_title p::before,
+    .header_title p::after {
+        display: none;
+    }
+    .header_title{
+        text-align: center;
+        margin: 40px 0;
+    }
+.food_blocks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.food {
+    width: 290px;
+    height: 276px;
+}
+.food p {
+    font-size: 22px;
+    line-height: 25px;
+}
+}
